@@ -8,3 +8,9 @@ function changecolor(activeSquare) {
         }
     }
 }
+function resetColor() {
+            var squares = document.querySelectorAll('.square');
+            for (var i = 0; i < squares.length; i++) {
+                squares[i].style.backgroundColor = prevColor ? prevColor : 'rgb(230, 230, 250)'; // Revert to previous color or Lavender
+            }
+        }
