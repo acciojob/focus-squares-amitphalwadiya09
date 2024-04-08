@@ -2,9 +2,9 @@ function changecolor(activeSquare) {
     var squares = document.querySelectorAll('.square');
     for (var i = 0; i < squares.length; i++) {
         if (i + 1 !== activeSquare) {
-            squares[i].style.backgroundColor = '#6F4E37'; // Coffee
+            squares[i].style.backgroundColor = 'rgb(230, 230, 250)'; // Coffee
         } else {
-            squares[i].style.backgroundColor = '#E6E6FA'; // Lavender
+            squares[i].style.backgroundColor = 'rgb(111, 78, 55)'; // Lavender
         }
     }
 }
